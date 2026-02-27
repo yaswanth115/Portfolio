@@ -221,3 +221,16 @@
 
   .exp-meta { align-items: flex-start; }
 }
+
+@media (max-width: 480px) {
+  .experience-section { padding: 56px 0; }
+  .timeline-item { grid-template-columns: 40px 1fr; }
+  .timeline::before { left: 16px; }
+  .timeline-dot { width: 30px; height: 30px; font-size: 0.8rem; margin-top: 16px; }
+  .exp-card { padding: 16px; }
+  .exp-role { font-size: 1.05rem; }
+  .exp-period, .exp-location { white-space: normal; font-size: 0.78rem; }
+  .exp-highlight-item { font-size: 0.84rem; }
+  .exp-tags { gap: 6px; }
+  .exp-tag { font-size: 0.72rem; padding: 3px 9px; }
+}

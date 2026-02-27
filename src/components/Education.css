@@ -155,3 +155,13 @@
   .edu-card-body { padding: 18px; }
   .cert-card { padding: 16px; }
 }
+
+@media (max-width: 480px) {
+  .education-section { padding: 56px 0; }
+  .edu-field { font-size: 0.98rem; }
+  .edu-institution { font-size: 0.84rem; }
+  .edu-meta { flex-direction: column; gap: 6px; align-items: flex-start; }
+  .cert-icon-wrap { width: 40px; height: 40px; font-size: 1.2rem; }
+  .cert-title { font-size: 0.88rem; }
+  .cert-issuer { font-size: 0.78rem; }
+}

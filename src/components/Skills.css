@@ -151,3 +151,13 @@
   }
   .skill-card { padding: 22px; }
 }
+
+@media (max-width: 480px) {
+  .skills-section { padding: 56px 0; }
+  .skill-card { padding: 18px; }
+  .skill-icon { font-size: 1.3rem; }
+  .skill-category { font-size: 0.9rem; }
+  .skill-bar-label { font-size: 0.82rem; }
+  .tech-tags { gap: 8px; }
+  .tech-tag { padding: 6px 12px; font-size: 0.8rem; }
+}
