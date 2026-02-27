@@ -175,6 +175,29 @@
   margin-bottom: 40px;
 }
 
+.btn-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: transparent;
+  color: var(--text-secondary);
+  border: 1.5px solid var(--border);
+  border-radius: 50px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.btn-download:hover {
+  border-color: var(--cyan);
+  color: var(--cyan);
+  background: rgba(99, 102, 241, 0.08);
+  transform: translateY(-2px);
+}
+
 /* Socials */
 .hero-socials {
   display: flex;
@@ -402,7 +425,7 @@
     align-items: center;
   }
 
-  .btn-primary, .btn-secondary {
+  .btn-primary, .btn-secondary, .btn-download {
     width: 100%;
     justify-content: center;
   }
