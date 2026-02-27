@@ -178,24 +178,48 @@
 .btn-download {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  padding: 12px 24px;
-  background: transparent;
-  color: var(--text-secondary);
-  border: 1.5px solid var(--border);
+  gap: 10px;
+  padding: 13px 28px;
+  background: linear-gradient(135deg, rgba(99,102,241,0.15), rgba(139,92,246,0.15));
+  color: var(--cyan-light);
+  border: 1.5px solid rgba(99, 102, 241, 0.45);
   border-radius: 50px;
   font-size: 0.95rem;
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
   text-decoration: none;
   transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+  letter-spacing: 0.02em;
+}
+
+.btn-download::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(99,102,241,0.25), rgba(139,92,246,0.25));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.btn-download:hover::before {
+  opacity: 1;
 }
 
 .btn-download:hover {
   border-color: var(--cyan);
-  color: var(--cyan);
-  background: rgba(99, 102, 241, 0.08);
+  color: #fff;
   transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(99, 102, 241, 0.35);
+}
+
+.btn-download svg {
+  transition: transform 0.3s ease;
+}
+
+.btn-download:hover svg {
+  transform: translateY(2px);
 }
 
 /* Socials */
