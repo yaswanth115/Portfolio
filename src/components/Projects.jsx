@@ -17,7 +17,7 @@ const projects = [
       'Supports document upload, DuckDuckGo MCP-style web search, and real-time streaming',
     ],
     tags: ['Python', 'FastAPI', 'LangGraph', 'Groq (LLaMA 3)', 'FAISS', 'BGE Embeddings', 'BM25', 'DuckDuckGo MCP'],
-    github: 'https://github.com/yaswanth-veguru',
+    github: 'https://github.com/yaswanth115',
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ const projects = [
       'Enhances recruitment outreach efficiency with role-specific, professional communication',
     ],
     tags: ['Python', 'OpenAI GPT', 'LangChain', 'ChromaDB', 'Streamlit'],
-    github: 'https://github.com/yaswanth-veguru',
+    github: 'https://github.com/yaswanth115',
   },
   {
     id: 3,
@@ -49,7 +49,7 @@ const projects = [
       'Comprehensive EDA and feature engineering on restaurant attributes and reviews',
     ],
     tags: ['Python', 'Pandas', 'Scikit-learn', 'NumPy', 'EDA', 'Matplotlib', 'Seaborn'],
-    github: 'https://github.com/yaswanth-veguru',
+    github: 'https://github.com/yaswanth115',
   },
   {
     id: 4,
@@ -65,7 +65,7 @@ const projects = [
       'Neural network architecture optimized for time-series energy consumption data',
     ],
     tags: ['Python', 'Keras', 'TensorFlow', 'Pandas', 'EDA', 'Matplotlib', 'Scikit-learn', 'XGBoost'],
-    github: 'https://github.com/yaswanth-veguru',
+    github: 'https://github.com/yaswanth115',
   },
 ];
 

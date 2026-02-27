@@ -40,7 +40,7 @@ const contactInfo = [
 const socials = [
   {
     name: 'LinkedIn',
-    href: 'https://linkedin.com/in/yaswanth-veguru',
+    href: 'https://www.linkedin.com/in/yaswanth-veguru-b545aa282/',
     color: '#0a66c2',
     icon: (
       <svg viewBox="0 0 24 24" fill="currentColor">
@@ -51,7 +51,7 @@ const socials = [
   },
   {
     name: 'GitHub',
-    href: 'https://github.com/yaswanth-veguru',
+    href: 'https://github.com/yaswanth115',
     color: '#f1f5f9',
     icon: (
       <svg viewBox="0 0 24 24" fill="currentColor">

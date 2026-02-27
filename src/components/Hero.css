@@ -299,6 +299,12 @@
   animation: float 7s ease-in-out infinite 0.2s;
 }
 
+.badge-api {
+  bottom: 5%;
+  left: -10px;
+  animation: float 5s ease-in-out infinite 1.5s;
+}
+
 /* Scroll indicator */
 .scroll-indicator {
   position: absolute;
@@ -373,6 +379,7 @@
   .badge-python { right: 10%; top: 0; }
   .badge-ai { right: 5%; bottom: 5%; }
   .badge-cloud { left: 5%; top: 50%; }
+  .badge-api { left: 5%; bottom: 0; }
 }
 
 @media (max-width: 480px) {
